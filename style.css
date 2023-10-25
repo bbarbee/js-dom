@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(113, 148, 137);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background-color: darkgray;
+    border-radius: 15px;
+    padding: 20px;
+}
