@@ -8,20 +8,23 @@
 </head>
 <body>
     <div class="container">
-        <div class="calculator">   
-            <div>
+        <div class="calculator"> 
+            <form action="">  
+            <div class="userInput">
                 <input type="number" name="firstNumber" id="firstNumber">
                 <input type="number" name="secondNumber" id="secondNumber">
             </div>
-            <div>
-                <button type="button">+</button>
-                <button type="button">-</button>
-                <button type="button">*</button>
-                <button type="button">/</button>
+            <div class="button">
+                <button type="button" onclick="add()">+</button>
+                <button type="button" onclick="subtract()">-</button>
+                <button type="button" onclick="multiply()">*</button>
+                <button type="button" onclick="divid()">/</button>
+                <button id="equals" type="button" onclick="returnValue()">=</button>
             </div>
             <div>
             <p>RESULTS <span style="font-weight: bold;"></span></p>
             </div>
+            </form>
         </div> 
     </div>
 </body>
